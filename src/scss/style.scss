@@ -1,0 +1,31 @@
+/* nnnnnn */
+
+body {
+	background-color: rgb(249, 226, 189);
+}
+
+p {
+	color: green;
+}
+
+
+/* section */
+
+ul {
+	display: grid;
+	justify-content: space-between;
+}
+
+li {
+	display: inline-block;
+}
+
+.nav {
+	background: linear-gradient(top, #0b2267, #07133c);
+}
+
+@media (max-width: 700px) {
+	body {
+		background-color: #fb0000;
+	}
+}
